@@ -1,12 +1,18 @@
-import React from 'react';
-import styles from '../style.less';
-import downloadImg from "../../../assets/images/toolbarButton-download.svg"
+import React from "react";
+import styles from "../style.less";
+import downloadImg from "../../../assets/images/toolbarButton-download.svg";
 export default function TitleWithDownload(props) {
-
-    const { fileName, handleDownload, disabled = false, backgroundColor = '#1e8e3edb', zoom, onZoom } = props;
-    return (
-        <div className={styles.title} style={{ backgroundColor: backgroundColor }}>
-            <span>{fileName}</span>
+  const {
+    fileName,
+    handleDownload,
+    disabled = false,
+    backgroundColor = "#1e8e3edb",
+    zoom,
+    onZoom,
+  } = props;
+  return (
+    <div className={styles.title} style={{ backgroundColor: backgroundColor }}>
+      {/* <span>{fileName}</span>
             {
                 zoom && (
                     <div style={{ display: 'flex' }}>
@@ -16,7 +22,7 @@ export default function TitleWithDownload(props) {
                     </div>
                 )
             }
-            <button className={styles["download"]} title={t("download")} onClick={handleDownload} disabled={disabled}><img src={downloadImg} /></button>
-        </div>
-    )
+            <button className={styles["download"]} title={t("download")} onClick={handleDownload} disabled={disabled}><img src={downloadImg} /></button> */}
+    </div>
+  );
 }

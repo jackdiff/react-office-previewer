@@ -1,6 +1,6 @@
 {
-  "name": "react-office-viewer",
-  "version": "1.0.3",
+  "name": "react-office-previewer",
+  "version": "1.0.9",
   "description": "A React component to preview document of 'pdf,xls,xlsx,docx', which can automatically identify file types.",
   "main": "build/bundle.js",
   "scripts": {
@@ -22,13 +22,13 @@
   "author": "yiiran",
   "license": "MIT",
   "dependencies": {
-    "@handsontable/react": "^12.1.3",
+    "@handsontable/react": "^12.3.3",
     "@yiiran/get-file-type": "^1.0.3",
-    "handsontable": "^12.3.0",
+    "handsontable": "^12.3.3",
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^6.1.8",
     "mammoth": "^1.5.1",
-    "pdfjs-dist": "2.10.377",
+    "pdfjs-dist": "^3.5.141",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-i18next": "^11.18.6",
